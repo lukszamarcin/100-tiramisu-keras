@@ -51,5 +51,5 @@ tensorboard --logdir=path/to/log-directory
 ~~~
 
 ## Notes
-Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git
-Inspired by Jeremy's Howard fastAI course: http://www.fast.ai/
+> Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git
+> Inspired by Jeremy's Howard fastAI course: http://www.fast.ai/
