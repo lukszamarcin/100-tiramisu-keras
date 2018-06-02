@@ -5,10 +5,10 @@ https://arxiv.org/abs/1611.09326
 
 Keras implementation of 100 layer Tiramisu for semantic segmentaton
 
-# Running a demo
+## Running a demo
 In progress...
 
-# Training
+## Training
 
 Run the following to train with default configuration (training from scratch on CamVid dataset) - it assumes that camvid data is in the same folder (clone it first from the repo mentioned below)
 ```
