@@ -6,11 +6,34 @@ https://arxiv.org/abs/1611.09326
 Keras implementation of 100 layer Tiramisu for semantic segmentaton
 
 ## Running a demo
-In progress...
+Test network trained with CamVid data on custom image by running:  
+~~~
+python run_tiramisu_camvid.py
+~~~
 
+With optional arguments:  
+~~~
+optional arguments:
+  -h, --help            show this help message and exit
+  --path_to_test_file PATH_TO_TEST_FILE
+                        Path to the image you would like to test with. Default
+                        is: images/testImage0.png
+  --path_to_result PATH_TO_RESULT
+                        Path to the folder and filename where the result of
+                        segmentation should be saved. Default is:
+                        images/test_image1_outcome.png
+  --path_to_model PATH_TO_MODEL
+                        Path to the h5 file with the model weight that should
+                        be used for inference. Default is:
+                        models/my_tiramisu.h5
+  --path_to_labels_list PATH_TO_LABELS_LIST
+                        Path to file defining classes used in camvid dataset.
+                        Only used if convert_from_camvid = True. Default is
+                        camvid-master/label_colors.txt
+~~~
 ## Training
 
-Run the following to train with default configuration (training from scratch on CamVid dataset) - it assumes that camvid data is in the same folder (clone it first from the repo mentioned below)
+Run the following to train with default configuration (training from scratch on CamVid dataset) - it assumes that camvid data is in the same folder (clone it first from the repo mentioned in Notes section)
 ```
 python train.py
 ```
