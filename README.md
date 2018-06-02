@@ -1,8 +1,16 @@
-# Semantic segmentation with 100 layer tiramisu
+# Semantic segmentation with The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation
 
-In progress...
+Original paper:
+https://arxiv.org/abs/1611.09326
 
 Keras implementation of 100 layer Tiramisu for semantic segmentaton
 
+# Running a demo
+In progress...
 
-Tested with CamVid datset from here: https://github.com/mostafaizz/camvid.git
+# Training
+In progress...
+
+Originally trained and tested with CamVid datset available here: https://github.com/mostafaizz/camvid.git
+
+Inspired by Jeremy's Howard fastAI course
