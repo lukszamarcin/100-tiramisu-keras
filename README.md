@@ -6,7 +6,7 @@ https://arxiv.org/abs/1611.09326
 Keras implementation of 100 layer Tiramisu for semantic segmentaton
 
 Tested with:
-Python 3
+Python 3  
 Tensorflow 1.6.0  
 Keras 2.1.5  
 
