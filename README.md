@@ -22,6 +22,7 @@ python train.py -h
 
 or check the overview of the inputs here:
 
+```
  --output_path OUTPUT_PATH
                         Path for saving a training model as a *.h5 file.
                         Default is models/new_tiramisu.h5
@@ -43,6 +44,7 @@ or check the overview of the inputs here:
   --training_percentage TRAINING_PERCENTAGE
                         Defines percentage of total data that will be used for
                         training.Default: 70 training 30 testing
+```
 
 Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git
 
