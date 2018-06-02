@@ -11,6 +11,6 @@ In progress...
 # Training
 In progress...
 
-Originally trained and tested with CamVid datset available here: https://github.com/mostafaizz/camvid.git
+Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git
 
 Inspired by Jeremy's Howard fastAI course
