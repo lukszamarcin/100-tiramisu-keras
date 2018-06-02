@@ -45,7 +45,10 @@ or check the overview of the inputs here:
                         Defines percentage of total data that will be used for
                         training.Default: 70 training 30 testing
 ```
+Tensorboard is supported to view run:
+~~~
+tensorboard --logdir=path/to/log-directory
+~~~
 
 Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git
-
 Inspired by Jeremy's Howard fastAI course: http://www.fast.ai/
