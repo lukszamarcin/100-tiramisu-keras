@@ -14,7 +14,7 @@ Tensorflow 1.6.0
 Keras 2.1.5  
 
 ## Running a demo
-Before running a demo, download weights trained on CamVid data from the following link and place it under models\
+Before running a demo, download weights trained on CamVid data from the following link and place it under models\\  
 https://drive.google.com/file/d/1T7GP7h0Q8DMLCQ3vgQdadBrFD_vZ9io3/view?usp=sharing
 
 Test network trained with CamVid data on custom image by running:  
