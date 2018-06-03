@@ -3,7 +3,7 @@
 Original paper:
 https://arxiv.org/abs/1611.09326
 
-Keras implementation of 100 layer Tiramisu for semantic segmentaton
+Keras implementation of 100 layer Tiramisu for semantic segmentaton. Model FC-DenseNet103 from the paper above.
 
 ![alt text](https://raw.githubusercontent.com/xxmarl/100-tiramisu-keras/master/images/test_image3_small.png)
 ![alt text](https://raw.githubusercontent.com/xxmarl/100-tiramisu-keras/master/images/test_image3_outcome.png)
