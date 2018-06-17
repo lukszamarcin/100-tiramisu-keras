@@ -92,6 +92,9 @@ Tensorboard is supported to view run:
 ~~~
 tensorboard --logdir=path/to/log-directory
 ~~~
+## TODO
+- Reproduce the paper error on CamVid
+- Try other datasets
 
 ## Notes
 Originally trained and tested with CamVid dataset available here: https://github.com/mostafaizz/camvid.git  
